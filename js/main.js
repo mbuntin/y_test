@@ -203,6 +203,7 @@ $(function() {
 
 	page.on('click', '.b-link_pseudo', function(evt) {
 		evt.preventDefault();
+		$(this).toggleClass('b-link_pseudo_arrow_up');
 		var contentBlock = $('.b-anketa__inner');
 		$(this).parent().next(contentBlock).toggleClass('b-anketa__inner_state_show');
 	});

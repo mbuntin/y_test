@@ -173,6 +173,15 @@ html {
 	margin: 0;
 	color: #4e5a63;
 }
+
+.b-link__text_arrow_up,
+.b-link_pseudo_arrow_up .b-link__text_arrow_down {
+	display: none;
+}
+.b-link_pseudo_arrow_up .b-link__text_arrow_up { 
+	display: inline;
+}
+
 .b-error {
 	display: none;
 }
@@ -294,22 +303,20 @@ html {
 	color: #fefefe;
 }
 
-.b-anketa__indicator__full {
-	float: right;
-}
 .b-anketa__indicator {
 	margin: 1.5em 0;	
 }
 .b-anketa__indicator__line {
-	height: 2px;
+	height: 6px;
+	border: 1px solid;
 }
 .b-anketa__indicator__line__inner {
-	background-color: blue;
+	background-color: #2a6fc6;
 	height: 100%;
 	width: 0;
 }
 .b-anketa__indicator__text {
-	display: none;
+	font-weight: 700;
 }
 .b-anketa__indicator__text_show {
 	display: block;
