@@ -1,85 +1,211 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-		<title>Resume</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Анкета</title>
 	</head>
-	<body>
-		<div class="main-layout">
-			<header class="header">
-				<nav class="header-top-menu">
-					<a href="" class="header-top-menu-item"><span class="header-top-menu-item-text">Общие вопросы</span></a>
-					<a href="" class="header-top-menu-item"><span class="header-top-menu-item-text">Опыт разработки</span></a>
-				</nav>
-			</header>
-			<div class="content">
-				<div class="section section-about">
-					<h1 class="section-title">Общие вопросы</h1>
-					<div class="section-content">
-						<h2 class="section-sub-title">О себе</h2>
-						<p class="section-text">
-							Бунтин Максим Сергеевич.<br> Родился 04.07.1980 г.
-							В 1997 году поступил в Волго-Вятскую Академию Государственной Службы,
-							отучился 2 с половиной года, не закончил.
-							Уровень владения английским — средний.					
- 						</p>
-						<h2 class="section-sub-title">Контакты</h2>
-						<dl class="section-definition-list">
-							<dt class="section-definition-list-title">E-mail:</dt>
-							<dd class="section-definition-list-text"><a href="mailto:user@server.ru" class="link">user@server.ru</a></dd>
-							<dt  class="section-definition-list-title">Телефон:</dt>
-							<dd class="section-definition-list-text">+7 123 456 78 90</dd>
-							<dt class="section-definition-list-title">Адрес:</dt>
-							<dd class="section-definition-list-text">Московская обл. Пушкинский р-он, пос. Правдинский</dd>
-						</dl>
+	<body class="b-page">
+		<div class="b-wrap">
+			<div class="b-header">
+				<a href="#" class="b-logo">ШРИ-2013</a>
+			</div>
+			<div class="b-content">
+				<h1 class="b-main-title">Анкета второй Школы разработки интерфейсов в Москве</h1>
+				<form action="" id="anketa" method="post" enctype="multipart/form-data" class="b-form">
+					<h2 class="b-content__title">Заполните анкету <a href="#" class="b-link b-link_pseudo"><span class="b-link__text">▼</span></a></h2>
+					<div class="b-anketa__inner b-anketa__inner_questions">
+						
 					</div>
-				</div>
-				<div class="section section-experience">
-					<h1 class="section-title">Опыт разработки</h1>
-					<div class="section-content">
-						<h2 class="section-sub-title">Работа</h2>
-						<p class="section-text">
-							С октября 2009 года и по январь 2011 работал верстальщиком в студии «ДотОрг».
-							В мои обязанности входило: html-верстка макетов сайта, подключение CMS, наполнение сайта и его тестирование, контентная поддержка.</p>
-						<h3>Последние работы, сверстанные мной в студии «ДотОрг»:</h3>
-						<ul class="section-list">
-							<li class="section-list-item"><a href="http://www.aglika.ru" class="link">http://www.aglika.ru</a></li>
-							<li class="section-list-item"><span>http://www.bom-bom.ru</span></li>
-							<li class="section-list-item"><a href="http://www.klinikantm.ru" class="link">http://www.klinikantm.ru</a></li>
-							<li class="section-list-item"><a href="http://www.art-lingvist.ru" class="link">http://www.art-lingvist.ru</a></li>
-							<li class="section-list-item"><a href="http://www.apollonium.ru" class="link">http://www.apollonium.ru</a></li>
-						</ul>
-						<p class="section-text">С марта 2010 года по настоящее время работаю в компании «AT-Consulting».</p>
-						<h2 class="section-sub-title">Инструменты разработки</h2>
-						<dl class="section-definition-list">
-							<dt class="section-definition-list-title">Редакторы и среды разработки:</dt>
-							<dd class="section-definition-list-text">«Notepad++», «SublimeText 2», «IntelliJ IDEA»</dd>
-							<dt class="section-definition-list-title">Системы контроля версий:</dt>
-							<dd class="section-definition-list-text">«SVN», «Git»</dd>
-							<dt class="section-definition-list-title">Операционные системы:</dt>
-							<dd class="section-definition-list-text">«Windows XP», «Windows 7»</dd>
-						</dl>
-						<h2 class="section-sub-title">Полезные веб-ресурсы</h2>
-						<ul class="section-list">
-							<li class="section-list-item"><a href="http://clubs.ya.ru/ui/" class="link">clubs.ya.ru/ui/</a></li>
-							<li class="section-list-item"><a href="http://web-standards.ru/" class="link">web-standards.ru/</a></li>
-							<li class="section-list-item"><a href="http://chikuyonok.ru/" class="link">chikuyonok.ru/</a></li>
-							<li class="section-list-item"><a href="http://www.html5rocks.com/en/" class="link">www.html5rocks.com/en/</a></li>
-							<li class="section-list-item"><a href="http://html5doctor.com/" class="link">html5doctor.com/</a></li>						
-							<li class="section-list-item"><a href="http://jquery.com/" class="link">jquery.com/</a></li>
-							<li class="section-list-item"><a href="http://javascriptweekly.com/" class="link">javascriptweekly.com/</a></li>
-							<li class="section-list-item"><a href="http://html5weekly.com/" class="link">html5weekly.com/</a></li>
-							<li class="section-list-item"><a href="http://css-tricks.com/" class="link">css-tricks.com/</a></li>
-							<li class="section-list-item"><a href="http://www.alistapart.com/" class="link">www.alistapart.com/</a></li>
-							<li class="section-list-item"><a href="http://lea.verou.me/" class="link">lea.verou.me/</a></li>
-						</ul>
+					<h2 class="b-content__title">Расскажите нам о себе <a href="#" class="b-link b-link_pseudo"><span class="b-link__text">▼</span></a></h2>
+					<div class="b-anketa__inner">
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_resume" class="b-label">Резюме до 250 КБ</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-button b-button_input b-button_input_file">
+									<span class="b-button__text">Выбрать файл</span>
+									<input name="resume" type="file" class="b-button__input">
+								</span
+								><span class="b-button__file-name"></span>
+								<span class="b-button__delete-file"><b>&#10005;</b></span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_moi_krug" class="b-label">Ссылка на профиль в Моем Круге</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-input">
+									<span class="b-input__inner">
+										<input name="question_moi_krug" id="question_moi_krug" class="b-input__input">
+									</span>
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="fio" class="b-label">Имя, Фамилия</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-input">
+									<span class="b-input__inner">
+										<input name="fio" id="fio" class="b-input__input">
+									</span>
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_phone" class="b-label">Телефон</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-input">
+									<span class="b-input__inner">
+										<input name="question_phone" id="question_phone" class="b-input__input">
+									</span>
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_email" class="b-label">E-mail</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-input">
+									<span class="b-input__inner">
+										<input name="email" id="question_email" class="b-input__input">
+									</span>
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_more_info" class="b-label">Дополнительные сведения</label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-input b-input_textarea">
+									<span class="b-input__inner">
+										<textarea name="question_more_info" id="question_more_info" cols="40" rows="4" class="b-input__input"></textarea>
+									</span>
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_more_info" class="b-label"></label>
+							</div>
+							<div class="b-input-wrap">
+								<p class="b-anketa__question">Откуда вы узнали о нашем предложении</p>
+								<div class="b-dropdown b-dropdown_width_50">
+									<span class="b-dropdown__button">
+										<span class="b-dropdown__icon">▼</span>
+										<span class="b-dropdown__text">Выбрать</span>
+										<input type="hidden" value="" class="b-input__input" name="dropdown">
+									</span>
+									<div class="b-dropdown__list__wrap">
+										<ul class="b-dropdown__list">
+											<li class="b-dropdown__item selected"><span class="b-dropdown__item__text">Выбрать</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">от HR-менеджера Яндекса</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">Я.Субботник</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">Yet another Conference</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">на другой конференции</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">из поиска</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">по рекомендации</span></li>
+											<li class="b-dropdown__item"><span class="b-dropdown__item__text">другое</span></li>
+										</ul>
+									</div>
+								</div>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_more_info" class="b-label"></label>
+							</div>
+							<div class="b-input-wrap">
+								<div class="b-input-wrap">
+									<span class="b-input b-input_checkbox">
+										<span class="b-input__inner_checkbox">
+											<input name="agree" value="0" type="checkbox" id="checkbox_agree" class="b-input__checkbox">
+											<span class="b-input_checkbox__icon"></span>
+										</span>
+									</span
+									><label for="checkbox_agree">Я даю свое согласие на передачу в ООО «ЯНДЕКС» резюме и/или анкеты, содержащих мои персональные данные, и согласен с тем, что они будут храниться в ООО «ЯНДЕКС» в течение 5 лет и будут обрабатываться исключительно для целей предложения мне вакансий группы компаний «ЯНДЕКС», в соответствии с Федеральным законом «О персональных данных».</label>
+									<div class="b-error"></div>
+								</div>
+								<div class="b-error"></div>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="" class="b-label"></label>
+							</div>
+							<div class="b-input-wrap">
+								<p class="anketa-question"></p>
+							</div>
+						</div>
+						<div class="b-anketa__row">
+							<div class="b-label-wrap">
+								<label for="question_resume" class="b-label"></label>
+							</div>
+							<div class="b-input-wrap">
+								<span class="b-button b-button_input b-button_input_submit">
+									<span class="b-button__text">Отправить</span>
+									<input type="submit" value="Отправить" class="b-button__input">
+								</span>
+								<span class="b-button b-button_input b-button_input_reset">
+									<span class="b-button__text">Очистить форму</span>
+									<input type="reset" value="Очистить форму" class="b-button__input">
+								</span>
+								<div class="b-error"></div>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="b-anketa__indicator">
+					<span class="b-anketa__indicator__text__inner b-anketa__indicator__full"></span>
+					<span class="b-anketa__indicator__text__inner b-anketa__indicator__filled">0</span>
+					<div class="b-anketa__indicator__line">
+						<div class="b-anketa__indicator__line__inner"></div>
 					</div>
 				</div>
 			</div>
-			<div class="main-layout-helper"></div>
+			<div class="b-pusher"></div>
 		</div>
-		<foote class="footer"></footer>
+		<footer class="b-footer"></footer>
+		<script type="text/handlebarsTmpl" id="anketaRow">
+		{{#each items}}
+			<div class="b-anketa__row">
+				<div class="b-label-wrap">
+					<label for="{{id}}" class="b-label">{{label}}</label>
+				</div>
+				<div class="b-input-wrap">
+					<div class="b-anketa__text-wrap">{{{text}}}</div>
+					{{#if textArea}}
+					<span class="b-input b-input_textarea">
+						<span class="b-input__inner">
+							<textarea name="{{id}}" id="{{id}}" cols="40" rows="4" class="b-input__input"></textarea>
+						</span>
+					</span>
+					{{/if}}	
+					<div class="b-error"></div>
+				</div>
+			</div>
+		{{/each}}
+		</script>
+		<script src="js/jquery-1.8.3.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<script src="js/handlebars.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

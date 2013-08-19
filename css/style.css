@@ -1,0 +1,330 @@
+html {
+	height: 100%;
+}
+.b-page {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 16px Arial, Helvetica, sans-serif;
+	background-color: #e2eefa;
+	color: #4e5a63;
+}
+.b-wrap {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	min-width: 640px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.b-header {
+	height: 100px;
+	background-color: #6b9cda;
+	position: relative;
+}
+.b-logo {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5;
+	display: inline-block;
+	color: #fff;
+	margin: 35px 0 0 20px;
+}
+.b-pusher {
+	height: 50px;
+}
+.b-footer {
+	height: 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -50px;
+	background-color: #6b9cda;
+}
+.b-content {
+	background-color: #fff;
+	padding: 20px;
+}
+.b-main-title {
+	margin-top: 0;
+	font-size: 28px;
+	font-weight: 400;
+}
+.b-content__title {
+	font-size: 20px;
+	font-weight: 400;
+}
+.b-label-wrap {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+.b-anketa__inner {
+	background-color: #d2e2f5;
+	padding: 20px;	
+	border-radius: 5px;
+	display: none;
+}
+.b-anketa__inner_state_show {
+	display: block;
+}
+.b-anketa__row {
+	margin-bottom: 1.5em;
+}
+.b-input-wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+.b-anketa__text-wrap p,
+.b-anketa__text-wrap div {
+	display: block;
+	margin: 0 0 1.5em;
+}
+.b-anketa__text-wrap label {
+	margin-left: .5em;
+	vertical-align: middle;
+}
+.b-anketa__text-wrap input {
+	vertical-align: middle;
+}
+.b-input {
+	display: block;
+}
+.b-input__inner {
+	display: block;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, .1);
+    border: 1px solid  #cad2d7;
+    box-sizing: border-box;
+}
+.b-input_error .b-input__inner {
+	border-color: #f44;
+}
+.b-input_checkbox {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4px;
+}
+.b-input__inner_checkbox {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+}
+.b-input_checkbox__icon {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #c5d7ec;
+	border-radius: 2px;
+	background: #fff;
+	position: relative;
+	z-index: 5;
+}
+
+.checked .b-input_checkbox__icon {
+	background: #fff url(../img/checkbox.png) 50% 50% no-repeat;
+}
+.b-input__input {
+	border: none;
+	outline: 0;
+ 	color: #4e5a63;
+    background: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+.b-input_textarea .b-input__input {
+	resize: vertical;
+}
+.b-input_checkbox .b-input__checkbox {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.b-link {
+	color: #2a6fc6;
+}
+.b-input-wrap a {
+	color: #2a6fc6;
+}
+
+.b-anketa__title {
+	cursor: pointer;
+}
+
+.b-link_pseudo {
+	color: #2a6fc6;
+	display: block;
+	margin: 1.5em 0;	
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.b-content__title .b-link_pseudo {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	color: #4e5a63;
+}
+.b-error {
+	display: none;
+}
+.b-error_show_error {
+	display: block;
+}
+.b-button {
+	display: inline-block;
+	padding: 10px 16px 11px;
+	background-color: #4783ce;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.b-button:active {
+	background-color: #2a6fc6;
+}
+
+.b-button_input {
+	position: relative;
+	overflow: hidden;
+}
+
+.b-button__text {
+	font-size: 13px;
+	color: #fff;
+}
+.b-button__input {
+	font: 120px/120px Arial, sans-serif;
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer ;
+}
+.b-button_input_file {
+	vertical-align: middle;
+}
+.b-button__file-name {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 .5em;
+}
+.b-button__delete-file {
+	display: none;
+}
+.b-button__delete-file_show {
+	display: inline-block;
+	cursor: pointer;
+} 
+/* dropdown */
+.b-dropdown {
+	display: block;
+}
+.b-dropdown_width_50 {
+	width: 50%;
+}
+.b-dropdown_opened {
+	position: relative;
+	z-index: 20;
+}
+.b-dropdown__button {
+	display: block;
+	padding: 10px 38px 10px 15px;
+	position: relative;
+	border-radius: 2px;
+	background-color: #f2f7fb;
+	cursor: pointer;
+ 	border-bottom: 1px solid #d1dee8; 
+	box-shadow: 0 1px 1px 0 #c1d3e0;
+}
+.b-dropdown__icon {
+	position: absolute;
+	display: block;
+	right: 12px;
+	top: 50%;
+	margin-top: -.5em;
+}
+.b-dropdown__text {
+	font-size: 13px;
+}
+.b-dropdown__list__wrap {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background-color: #f2f7fb;
+	border-bottom: 1px solid #d1dee8;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px 0 #c1d3e0;
+}
+.b-dropdown_opened .b-dropdown__list__wrap {
+	display: block;
+}
+.b-dropdown__list {
+	list-style: none;
+	margin: 0;
+	padding: 8px 0;
+}
+.b-dropdown__item {
+	padding: 8px 15px;
+	display: block;
+}
+.b-dropdown__item__hidden {
+	display: none;x
+}
+.b-dropdown__item:hover,
+.b-dropdown__item.selected {
+	background: #4783ce;
+	cursor: pointer;
+}
+.b-dropdown__item__text {
+	font-size: 13px;
+}
+.b-dropdown__item:hover .b-dropdown__item__text,
+.b-dropdown__item.selected .b-dropdown__item__text {
+	color: #fefefe;
+}
+
+.b-anketa__indicator__full {
+	float: right;
+}
+.b-anketa__indicator {
+	margin: 1.5em 0;	
+}
+.b-anketa__indicator__line {
+	height: 2px;
+}
+.b-anketa__indicator__line__inner {
+	background-color: blue;
+	height: 100%;
+	width: 0;
+}
+.b-anketa__indicator__text {
+	display: none;
+}
+.b-anketa__indicator__text_show {
+	display: block;
+}
+.b-error {
+	font-size: 14px;
+	margin-top: .5em;
+	color: #f44;
+}
+.b-list_ls_none {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.b-list_mode_vertical .b-list__item {
+	display: block;
+	margin: .5em 0;
+}
